@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5FB55B43-0EBB-47F9-95D5-9FFBEAA5AF6E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>simplect</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\MoNoQLoREATOR\SkyDrive\sync\CppProjects\simplect;C:\Users\MoNoQLoREATOR\SkyDrive\sync\CppProjects\FantomWaves;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\MoNoQLoREATOR\SkyDrive\sync\CppProjects\FantomWaves;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Users\MoNoQLoREATOR\SkyDrive\sync\CppProjects\simplect;C:\Users\MoNoQLoREATOR\SkyDrive\sync\CppProjects\FantomWaves;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\MoNoQLoREATOR\SkyDrive\sync\CppProjects\FantomWaves;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\simplect_cpp\anime.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\animeset_anime.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\color.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\Compute4top_image.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\Compute_uv_anime.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\Compute_uv_image.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\constructer_destructer_plate.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\constructor_destructor_image_data.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\constructor_image.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\coor.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\coorcolor.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\CreateRectanglePolygon.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\CreateRectanglePolygon_image_data.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\cursor.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\cursor_window.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\destructor_image.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\DrawWithoutCreatePolygon.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\DrawWithoutCreatePolygon_image_data.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\draw_image.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\draw_image_data.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\draw_plate.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\dx9input.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\dx9joypad.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\dx9key.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\getter_plate.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\image_data_anime.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\image_data_image.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\joypad.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\key.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\load_anime.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\load_image.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\load_image_data.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\make_matrix.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\matrix.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\mie_manager.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\mie_window_constructor-win-clear-update-destructor-GetDevice.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\mie_window_CreateDevice.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\mie_window_ReleaseResources.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\mie_window_RestoreDevice.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\mie_window_SetViewPort.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\mouse.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\release_image_data.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\ResetResources.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\se.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\SetParameter_window.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\setter_getter_image.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\canimer.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\setter_getter_matrix.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\sound_data.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\sound_manager.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\unique_sound.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\width-height_image.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\width_height_anime.cpp" />
+    <ClCompile Include="..\..\simplect_cpp\width_height_image_data.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\simplect\anime.h" />
+    <ClInclude Include="..\..\simplect\canimer.h" />
+    <ClInclude Include="..\..\simplect\color.h" />
+    <ClInclude Include="..\..\simplect\coor.h" />
+    <ClInclude Include="..\..\simplect\coorcolor.h" />
+    <ClInclude Include="..\..\simplect\cursor.h" />
+    <ClInclude Include="..\..\simplect\diffuse.h" />
+    <ClInclude Include="..\..\simplect\dx9input.h" />
+    <ClInclude Include="..\..\simplect\dx9joypad.h" />
+    <ClInclude Include="..\..\simplect\dx9key.h" />
+    <ClInclude Include="..\..\simplect\image.h" />
+    <ClInclude Include="..\..\simplect\image_data.h" />
+    <ClInclude Include="..\..\simplect\includes.h" />
+    <ClInclude Include="..\..\simplect\joypad.h" />
+    <ClInclude Include="..\..\simplect\key.h" />
+    <ClInclude Include="..\..\simplect\manager.h" />
+    <ClInclude Include="..\..\simplect\matrix.h" />
+    <ClInclude Include="..\..\simplect\mouse.h" />
+    <ClInclude Include="..\..\simplect\plate.h" />
+    <ClInclude Include="..\..\simplect\saferelease.h" />
+    <ClInclude Include="..\..\simplect\se.h" />
+    <ClInclude Include="..\..\simplect\simplect.h" />
+    <ClInclude Include="..\..\simplect\sound_data.h" />
+    <ClInclude Include="..\..\simplect\sound_manager.h" />
+    <ClInclude Include="..\..\simplect\top4.h" />
+    <ClInclude Include="..\..\simplect\unique_sound.h" />
+    <ClInclude Include="..\..\simplect\window.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

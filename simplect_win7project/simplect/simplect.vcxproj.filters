@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="manager">
+      <UniqueIdentifier>{7a32b82d-0f55-4a5d-8c5e-c7b6b376ae4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image">
+      <UniqueIdentifier>{1b0a0318-5a00-4be6-a2e9-80bd37017bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window">
+      <UniqueIdentifier>{230b5b9c-a94b-4299-9607-81a6d2204fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plate">
+      <UniqueIdentifier>{8d45ae8a-1a77-4610-ad50-754d359f8e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="coor">
+      <UniqueIdentifier>{529d0394-ea29-408f-9ef6-f5851ed9be3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="color">
+      <UniqueIdentifier>{6680ff13-c1b9-46c6-b156-0fcba3e8cba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="anime">
+      <UniqueIdentifier>{2c547aec-8085-48a5-bf8c-c391617d10e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="anime\canimer">
+      <UniqueIdentifier>{7d61c826-fcdb-4f5d-9891-9fe11982119c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="coor\coorcolor">
+      <UniqueIdentifier>{3b44710f-dfe4-41e9-b4bd-e012438553ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cursor">
+      <UniqueIdentifier>{5290af99-ef3e-4ecd-9a89-824e06aba2d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dx9input">
+      <UniqueIdentifier>{198b6761-8df9-4584-8098-dce5fe74df29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="joypad">
+      <UniqueIdentifier>{f3d6d4e6-2f5b-4bc7-af7c-14a065ff64fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="key">
+      <UniqueIdentifier>{5715c9f6-342e-4bf4-a6ac-0f9b71d13a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound">
+      <UniqueIdentifier>{fc70f1a2-575b-4073-bf28-8472e8a0ff93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mouse">
+      <UniqueIdentifier>{178ff6ae-cf41-4765-bcd3-4c8618283de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image_data">
+      <UniqueIdentifier>{807d24a9-dc48-4381-ba7c-7bb6eb43a9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="matrix">
+      <UniqueIdentifier>{525a8e7f-8426-4feb-b249-f012217904fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound\sound_data">
+      <UniqueIdentifier>{1780d43c-1e9f-4aff-aca5-0fa440a4c5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound\se">
+      <UniqueIdentifier>{be341a9c-e35d-4461-a545-b7fe4c5e44eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound\sound_manager">
+      <UniqueIdentifier>{e8814253-201a-4e2c-b9a7-f6077cd0872f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound\unique_sound">
+      <UniqueIdentifier>{cdeb4e66-8991-42aa-a003-c96587db8e03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\simplect_cpp\mie_manager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\mie_window_constructor-win-clear-update-destructor-GetDevice.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\mie_window_CreateDevice.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\mie_window_ReleaseResources.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\mie_window_RestoreDevice.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\mie_window_SetViewPort.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\SetParameter_window.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\getter_plate.cpp">
+      <Filter>plate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\draw_plate.cpp">
+      <Filter>plate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\coorcolor.cpp">
+      <Filter>coor\coorcolor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\coor.cpp">
+      <Filter>coor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\color.cpp">
+      <Filter>color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\CreateRectanglePolygon.cpp">
+      <Filter>plate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\DrawWithoutCreatePolygon.cpp">
+      <Filter>plate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\constructer_destructer_plate.cpp">
+      <Filter>plate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\canimer.cpp">
+      <Filter>anime\canimer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\anime.cpp">
+      <Filter>anime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\cursor_window.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\cursor.cpp">
+      <Filter>cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\dx9input.cpp">
+      <Filter>dx9input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\joypad.cpp">
+      <Filter>joypad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\dx9joypad.cpp">
+      <Filter>joypad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\dx9key.cpp">
+      <Filter>key</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\key.cpp">
+      <Filter>key</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\ResetResources.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\mouse.cpp">
+      <Filter>mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\animeset_anime.cpp">
+      <Filter>anime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\Compute_uv_anime.cpp">
+      <Filter>anime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\image_data_anime.cpp">
+      <Filter>anime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\load_anime.cpp">
+      <Filter>anime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\width_height_anime.cpp">
+      <Filter>anime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\Compute_uv_image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\Compute4top_image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\constructor_image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\destructor_image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\draw_image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\image_data_image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\load_image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\release_image_data.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\setter_getter_image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\width-height_image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\load_image_data.cpp">
+      <Filter>image_data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\width_height_image_data.cpp">
+      <Filter>image_data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\constructor_destructor_image_data.cpp">
+      <Filter>image_data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\CreateRectanglePolygon_image_data.cpp">
+      <Filter>image_data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\draw_image_data.cpp">
+      <Filter>image_data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\DrawWithoutCreatePolygon_image_data.cpp">
+      <Filter>image_data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\make_matrix.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\matrix.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\setter_getter_matrix.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\sound_data.cpp">
+      <Filter>sound\sound_data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\sound_manager.cpp">
+      <Filter>sound\sound_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\se.cpp">
+      <Filter>sound\se</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simplect_cpp\unique_sound.cpp">
+      <Filter>sound\unique_sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\simplect\saferelease.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\simplect.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\includes.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\image.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\manager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\window.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\plate.h">
+      <Filter>plate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\coorcolor.h">
+      <Filter>coor\coorcolor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\color.h">
+      <Filter>color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\coor.h">
+      <Filter>coor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\anime.h">
+      <Filter>anime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\canimer.h">
+      <Filter>anime\canimer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\cursor.h">
+      <Filter>cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\dx9input.h">
+      <Filter>dx9input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\dx9joypad.h">
+      <Filter>joypad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\joypad.h">
+      <Filter>joypad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\dx9key.h">
+      <Filter>key</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\key.h">
+      <Filter>key</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\mouse.h">
+      <Filter>mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\image_data.h">
+      <Filter>image_data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\matrix.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\top4.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\diffuse.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\sound_data.h">
+      <Filter>sound\sound_data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\se.h">
+      <Filter>sound\se</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\sound_manager.h">
+      <Filter>sound\sound_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\simplect\unique_sound.h">
+      <Filter>sound\unique_sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
