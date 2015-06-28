@@ -1,1 +1,5 @@
-this is C++ library that contains a lot of utility class and function and etc...
+this is DirectX9 wrapper library.  
+  
+this library depend on:  
+*"FantomWaves" library's "unformated" branch https://github.com/yuni-net/Fantomwaves/tree/unformated  
+*DirectX9 library
